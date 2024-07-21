@@ -8,6 +8,10 @@ import {
   useTexture,
 } from "@react-three/drei";
 
+// import React, { useRef, Suspense } from 'react'
+// import { useGLTF, OrthographicCamera, OrbitControls, Preload, Float } from '@react-three/drei'
+// import { Canvas } from "@react-three/fiber";
+
 import CanvasLoader from "../Loader";
 
 const Ball = (props) => {
@@ -37,6 +41,30 @@ const Ball = (props) => {
   );
 };
 
+// function Ball(props) {
+//   const { nodes, materials, icon } = useGLTF('/balls.glb')
+//   const [decal] = useTexture([props.imgUrl]);
+//   return (
+//     <group {...props} dispose={null}>
+//       <group scale={0.01}>
+//         <mesh
+//           castShadow
+//           receiveShadow
+//           geometry={nodes.Sphere.geometry}
+//           material={nodes.Sphere.material}
+//           position={[169, -46.5, 265]}
+//         />
+//         <OrthographicCamera
+//           makeDefault={false}
+//           far={100000}
+//           near={0}
+//           position={[47.623, -21.811, 1000]}
+//         />
+//       </group>
+//     </group>
+//   )
+// }
+
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas
@@ -54,4 +82,5 @@ const BallCanvas = ({ icon }) => {
   );
 };
 
+// useGLTF.preload('/balls.glb')
 export default BallCanvas;
