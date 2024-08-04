@@ -18,6 +18,7 @@ import {
   lightroom,
   meta,
   starbucks,
+  letsupgrade,
   tesla,
   shopify,
   carrent,
@@ -76,10 +77,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
   {
     name: "React JS",
     icon: reactjs,
@@ -161,6 +162,16 @@ const experiences = [
       "Show employees how to use Canva to create visually appealing presentations quickly, using templates and design tools to make their presentations more engaging and professional.",
       "Train employees on advanced functions and features in Excel and Google Sheets, like pivot tables, VLOOKUP, and data visualization tools, to improve data management and analysis.",
       "Leverage AI plugins for data analysis, forecasting, and task automation to improve efficiency.",
+    ],
+  },
+  {
+    title: "UI UX Intern",
+    company_name: "LetsUpgrade",
+    icon: letsupgrade,
+    iconBg: "#E6DEDD",
+    date: "July 2024 - August 2024",
+    points: [
+      "Worked on the edtech company's website design and target audience research to help optimize and increase user retentions",
     ],
   },
 ];

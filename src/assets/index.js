@@ -29,6 +29,7 @@ import tesla from "./company/tesla.png";
 import overtures from "./company/overtures.png";
 import internshala from "./company/internshala.png";
 import zinq from "./company/zinq.png";
+import letsupgrade from "./company/letsupgrade.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -67,4 +68,5 @@ export {
   overtures,
   internshala,
   zinq,
+  letsupgrade,
 };
