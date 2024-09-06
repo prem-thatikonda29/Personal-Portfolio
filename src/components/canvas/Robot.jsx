@@ -2,9 +2,9 @@ import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
 export default function Robot(props) {
-  const { nodes, materials } = useGLTF("./robot/robot.glb");
+  const { nodes, materials } = useGLTF("./cardboard_robot/cardboard_robot.glb");
   return (
-    <group {...props} dispose={null} scale={[2, 2, 2]} position={[0, -0.5, 0]}>
+    <group {...props} dispose={null} scale={[4.5, 4.5, 4.5]} position={[0, -0.85, 0]}>
       <mesh
         castShadow
         receiveShadow
@@ -20,10 +20,10 @@ export default function Robot(props) {
           castShadow
           shadow-mapSize={1024}
         />
-        <pointLight intensity={1} />
+        <pointLight intensity={1.5} />
       </mesh>
     </group>
   );
 }
 
-useGLTF.preload("./robot/robot.glb");
+useGLTF.preload("./cardboard_robot/cardboard_robot.glb");
