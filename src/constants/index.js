@@ -28,6 +28,7 @@ import {
   overtures,
   internshala,
   zinq,
+  comingsoon
 } from "../assets";
 
 export const navLinks = [
@@ -273,7 +274,7 @@ const projects = [
   {
     name: "Coming soon",
     description:
-      "A superfast online IDE to practice or run your preferred languages on the go. A cool playground to refine and test your frontend development skills. Simple and fun byte sized lessons to learn and practice your favourite tech languages.",
+      "A superfast online IDE, a cool playground to refine and test your frontend development skills; Simple and fun byte sized lessons to learn and practice your favourite tech languages.",
     tags: [
       {
         name: "docker",
@@ -288,7 +289,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: comingsoon,
     source_code_link: "https://github.com/",
   },
 ];

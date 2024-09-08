@@ -34,6 +34,7 @@ import letsupgrade from "./company/letsupgrade.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import comingsoon from "./coming_soon.png";
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   internshala,
   zinq,
   letsupgrade,
+  comingsoon
 };
