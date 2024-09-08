@@ -255,12 +255,12 @@ const projects = [
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "flutterflow",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: "firebase",
+        color: "orange-text-gradient",
       },
       {
         name: "scss",
@@ -273,18 +273,18 @@ const projects = [
   {
     name: "Coming soon",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A superfast online IDE to practice or run your preferred languages on the go. A cool playground to refine and test your frontend development skills. Simple and fun byte sized lessons to learn and practice your favourite tech languages.",
     tags: [
       {
-        name: "nextjs",
+        name: "docker",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nextTS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
