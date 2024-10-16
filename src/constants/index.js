@@ -28,7 +28,7 @@ import {
   overtures,
   internshala,
   zinq,
-  comingsoon
+  comingsoon,
 } from "../assets";
 
 export const navLinks = [
@@ -196,6 +196,14 @@ const testimonials = [
   },
   {
     testimonial:
+      "Prem would be the best choice for any work as he is a perfectionist and gives his best to every task he gets. He would make sure the work done by him doesn’t have any flaws and is the best of quality.",
+    name: "Anusri Karmokar",
+    designation: "Classmate",
+    company: "ITM SOFT",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+  {
+    testimonial:
       "Prem excels in front-end development, ensuring websites not only look appealing but also function seamlessly. His UI/UX skills are exceptional. He is proficient in HTML, CSS, JavaScript, and various other tools, applying a high level of creativity to his work. He has a strong grasp of multiple programming languages and demonstrates quick and effective problem-solving abilities.",
     name: "Husain Hakim",
     designation: "Classmate",
@@ -214,14 +222,6 @@ const testimonials = [
     testimonial:
       "The most dynamic yet disciplined person. The hunger for learning drives him, and he excels in what he knows best. Fluid with his tech skills, strong in frontend with CSS mastery, and proficient in JS frameworks like React and React Native. He also possesses a solid grasp of backend concepts. A great team player and leader.",
     name: "Raheel Kotwal",
-    designation: "Classmate",
-    company: "ITM SOFT",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-  {
-    testimonial:
-      "Prem would be the best choice for any work as he is a perfectionist and gives his best to every task he gets. He would make sure the work done by him doesn’t have any flaws and is the best of quality.",
-    name: "Anusri Karmokar",
     designation: "Classmate",
     company: "ITM SOFT",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
